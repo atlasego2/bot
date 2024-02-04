@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startA17() {
   console.log(
     color(
-      figlet.textSync("CYBER-PANDA-MD", {
+      figlet.textSync("EGOFFİCE", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,8 +62,8 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHi, Im CYBER PANDA MD V4 MAIN DEVELOPER OF THIS\n\nTHANKS FOR USER : CYBER PANDA MD V4.', 'aqua'))
-  console.log(color('\nYou can follow me on GitHub: Sachith', 'aqua'))
+  console.log(color('\nHi, IM EGOFFİCE', 'aqua'))
+  console.log(color('\nBENİ TAKİP ETME AAHAHAHA', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./SESSION");
   const A17 = A17Connect({
